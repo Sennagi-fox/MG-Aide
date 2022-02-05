@@ -15,4 +15,4 @@ MG Aide,原名毛怪助手、毛怪の宝库，原用于下载 hanser 不在音�
 
 开源工程获取
 ---
-该程序用fusion app2.0制作，点击releases标签找到fap工程文件进行下载，同时你需要下载fam插件导入进fusion app2.0才可正常调试，该工程依赖于fam插件。部分插件在打包之后容易挂，所以复制了一遍到各个工程里
+该程序用fusion app2.0制作，开源工程为fap文件，每次随版本更新一起上传，你需要在Android7及以上的版本下载fusion app2.0来导入查看，同时你也需要导入fam模块，以保证正常查看工程(上述的fusion app2.0以及fam模块在releases的标签0.0.0里面)
