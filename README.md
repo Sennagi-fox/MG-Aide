@@ -1,1 +1,1 @@
-#com.Sennagiapp.MG-Aide
+com.Sennagiapp.MG-Aide
