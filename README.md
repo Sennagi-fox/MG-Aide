@@ -15,7 +15,7 @@ MG Aide,原名毛怪助手、毛怪の宝库，原用于下载 hanser 不在音�
 
 Fap开源工程获取
 ---
-https://server.huiki721.com:5212/s/zAdTr
+https://cloud.yokinanya.icu:5212/s/4lXUn
 
 
 
