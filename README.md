@@ -1,4 +1,4 @@
-MG Aide
+MG Aide --- A app for Hanser fans
 ===
 
 关于
