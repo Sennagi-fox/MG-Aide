@@ -1,0 +1,20 @@
+{
+  LinearLayout,
+  orientation='vertical';--横向或者纵向布局
+  layout_width='fill';--布局宽度
+  layout_height='fill';--布局高度
+  background='#FFFFFFFF';--布局背景颜色
+  gravity='center';--控件内容的重力方向
+  id="page1";
+         {
+          ShapeableImageView,
+          scaleType="centerCrop",
+          layout_width="fill",
+          layout_height="10%w",
+          src="Ico.png",
+          elevation='0dp';--阴影
+          layout_gravity='center';--重
+          id="ny";
+         },
+
+};

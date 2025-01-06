@@ -1,0 +1,82 @@
+{
+  LinearLayout;
+  orientation="vertical";
+  background="#ffffffff";
+  layout_height="fill";
+  layout_width="fill";
+
+  {
+    LinearLayout;
+    orientation="vertical";
+    background="#ffffffff";
+    layout_height="match_parent";
+    layout_width="match_parent";
+    {
+      LinearLayout;
+      background="#ffffffff";
+      layout_width="match_parent";
+      layout_weight="1";
+      orientation="vertical";
+      layout_height="wrap";
+      {
+        ViewPager;
+        id="mPageView1";
+        layout_height="match_parent";
+        layout_width="match_parent";
+        pages={
+          "page/page1";
+              id="主页_文本";
+            textColor="#5A91FF";
+          };
+        };
+      };
+    };
+    {
+      LinearLayout;
+      background="#ffffffff";
+      padding="5dp";
+      layout_width="match_parent";
+    --  layout_weight="120";
+      orientation="horizontal";
+   --   layout_marginTop="1dp";
+      layout_height="56dp";
+      {
+        LinearLayout;
+        gravity="center";
+        layout_width="match_parent";
+        layout_weight="1";
+        id="主页";
+        layout_height="match_parent";
+        orientation="vertical";
+        {
+          LinearLayout;
+          layout_width="76dp";
+          layout_height="36dp";
+          gravity="center";
+          orientation="horizontal";
+          
+          id="主页_圆角";
+          layoutTransition=LayoutTransition()
+          .enableTransitionType(LayoutTransition.CHANGING)
+          .setDuration(LayoutTransition.CHANGE_APPEARING,200)
+        .setDuration(LayoutTransition.CHANGE_DISAPPEARING,250),
+        
+          {
+            ImageView;
+            layout_marginRight="3dp";
+            layout_width="60";
+            src="md/home_96x96.png";
+            id="主页_图标";
+            layout_height="60";
+            layout_margin="1dp";
+          };
+          {
+            TextView;
+            text="首页";
+            id="主页_文本";
+            textColor="#5A91FF";
+          };
+        };
+    };
+  };
+};
